@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt   # download matplotlib
 import numpy as np                # download numpy
 import pandas as pd               # download pandas
 import seaborn as sns             # download seaborn
+import scipy as sp
 import os
 import warnings                    # filter warnings
 warnings.filterwarnings('ignore')
@@ -40,6 +41,7 @@ print(mussel_mm)
                               # round whole dataset again
 mussel_mm = mussel_mm.round(3)
 print(mussel_mm)
+
 
 #---------------------------------------------------------------------
 # Graph Avg_pH vs AvgLength
@@ -145,3 +147,5 @@ axes.set_ylabel('Average Temperature (°C)')
 axes.set_zlabel('Average Area (mm^2)')
 
 plt.show()
+#---------------------------------------------------------------------------
+# Machine Learning continued in Jupyter Notebooks "MachineLearning_Mussel.ipynb"
